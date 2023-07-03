@@ -53,15 +53,6 @@ ul {
   padding-left: 0;
 }
 
-.pop-mobile-tech li {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  background: #fff;
-  border: 1px solid #2230d2;
-  padding: 5px;
-  border-radius: 10px;
-}
-
 .modal-1 ul {
   list-style-type: none;
   padding: 24px;
@@ -105,13 +96,14 @@ a {
 }
 
 .mobile-modal-content {
-  position: absolute;
-  top: 0;
+  position: static;
+  margin: 5% auto;
+  /* top: 0;
   left: 10%;
   right: 50%;
-  bottom: 0;
+  bottom: 0; */
   width: 80%;
-  height: 900px;
+  height: auto;
   padding: 30px;
   background: #fff;
   z-index: 10;
@@ -139,6 +131,7 @@ a {
   align-items: center;
   width: 100%;
   height: auto;
+
 }
 
 .pop-mobile-tech {
@@ -148,10 +141,20 @@ a {
   gap: 10px;
 }
 
+.pop-mobile-tech li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #fff ;
+  border: 1px solid #2230d2;
+  padding: 5px;
+  border-radius: 10px;
+}
+
 .pop-mobile-tech li:hover {
   background: #2230d2;
   color: #fff;
 }
+
 
 .main {
   box-sizing: border-box;
@@ -194,6 +197,22 @@ a {
   display: flex;
   justify-content: space-between;
   width: 171px;
+}
+
+.pop-up-button {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.see-live, .see-source {
+  display: flex;
+  align-items: center;
+  border: 1px solid #396df2;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 /*
